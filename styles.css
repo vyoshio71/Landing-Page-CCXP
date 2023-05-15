@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+
+}
+
+header {
+    background-color: #ffd900;
+    padding: 27px 0px 28px 58px;
+}
+
+#prim {
+    font-size: 43px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+#segun {
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    color: #000;
+    display: block;
+    line-height: 1px;
+}
+
+span {
+    color: #fff;
+}
+
+.content2 {
+    padding-left: 16px;
+}
+
+.content1 {
+    background-color: #514988;
+}
+
+p {
+    font-family: 'Verdana';
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    padding: 72px 60px 92px 30px;
+}
+
+.title2 {
+    color: #ffd900;
+}
+
+.timer {
+    display: Grid;
+    grid-auto-flow: column;
+    color: #514988;
+    padding: 30px 0px 0px 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.title {
+    font-family: 'Verdana';
+    font-size: 80px;
+    text-align: center;
+    color: #F3C61F;
+    padding-top: 21px;
+}
+
+#subtitle {
+    color: #fff;
+    font-size: 35px;
+}
+
+.container {
+    display: grid;
+    grid-auto-flow: column;
+}
+
+#img-content {
+    padding: 15px 107px 38px 81px;
+    display: inline-flex;
+}
+
+.t1 {
+    color: #E33881;
+    padding: 0px 0px 16px 40px;
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container2 {
+    display: flex;
+    align-items: center;
+}
+
+button {
+    width: 596px;
+    height: 148px;
+    background-color: #514988;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 42px;
+    align-items: center;
+}
+
+.content4 {
+    padding: 128px 0px 66px 80px;
+}
+
+.title2 {
+    padding: 15px 0px 15px 89px;
+    font-size: 27px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.dia,
+.hora,
+.minuto,
+.segundo {
+    display: flex;
+    align-items: center;
+    line-height: 85.07px;
+    font-size: 35px;
+    text-align: center;
+}
+
+.card-highlight {
+    box-shadow: 10px 10px 10px 10px grey;
+}
+
+.card-selected {
+    border: 5px solid green;
+}
+
+button:hover {
+    background-color: #514988;
+    cursor: pointer;
+    color: #f3c61f;
+}
